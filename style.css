@@ -1,0 +1,69 @@
+body {
+    background-color: #EEC1D8;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #b2decd;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.img1 {
+    border-radius: 50%;
+    width: 120px;
+    max-width: 1200px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn {
+    /* Seu estilo de botão */
+    background-color: #f5b7b1;
+    color: #fff;
+    border: none;
+    padding: 20px 40px; /* Aumenta o padding para tornar os botões maiores */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    cursor: pointer;
+    margin: 15px 0; /* Ajuste o espaçamento vertical entre os botões */
+    border-radius: 10px; /* Aumenta o raio da borda para suavizar os cantos */
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #a7fcff;
+}
+
+.pink {
+    background-color: #ff90da;
+}
+
+.blue {
+    background-color: #add8e6;
+}
+
+.green {
+    background-color: #90ee90;
+}
